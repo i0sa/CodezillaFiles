@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 extension UITableView {
+    
     func registerCellNib<Cell: UITableViewCell>(cellClass: Cell.Type){
         self.register(UINib(nibName: String(describing: Cell.self), bundle: nil), forCellReuseIdentifier: String(describing: Cell.self))
     }
@@ -23,6 +24,5 @@ extension UITableView {
         
         return cell
     }
-    
-    
+        
 }
