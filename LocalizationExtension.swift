@@ -4,6 +4,6 @@ extension String {
     }
 }
 
-// Usagage
+// Usage
 
 "Error".localized
